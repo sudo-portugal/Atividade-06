@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eduardo Portugal</title>
     <link rel="stylesheet" href="../../css/estilo.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -12,57 +11,154 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
 </head>
 
 <body>
     <header>
         <nav id="nav-bar">
             <div id="nav-bar-left">
-                <img src="../../imgs/logob3-2.png" />
-                <h1 class="nav-logo-text"> Artigos Esportivos</h1>
+                <img src="../../imgs/logob3-2.png" alt="Logo" />
+                <h1 class="nav-logo-text">Artigos Esportivos</h1>
             </div>
 
             <div id="nav-bar-center">
-                <a href='/index.html'>
-                    <ul class="nav-list">
-                        <il class="nav-item"> Início</il>
-                    </ul>
-                </a>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="/index.html">Início</a></li>
+                </ul>
             </div>
 
             <div id="nav-bar-right">
-                <button class="btn-default">
-                    Login
-                </button>
+                <button class="btn-default">Login</button>
             </div>
         </nav>
     </header>
 
-    <main>
+    <main id="content">
+        <section id="home">
+            <div class="landing-page-sport">
+                <div class="landing-title-sport">
+                    <h1 class="title-sport-3">Futebol</h1>
+                    <p>
+                        O futebol é um esporte coletivo originado na Inglaterra no século XIX e hoje é considerado o
+                        esporte mais popular do mundo. É disputado entre duas equipes com onze jogadores cada, em um
+                        campo retangular com dois gols nas extremidades. O objetivo é marcar mais gols que o adversário,
+                        conduzindo a bola com os pés, sem o uso das mãos (exceto pelo goleiro). A partida tem dois
+                        tempos de 45 minutos, e vence quem fizer mais gols. O futebol envolve técnica, estratégia,
+                        trabalho em equipe e emoção, sendo jogado e assistido por bilhões de pessoas ao redor do
+                        planeta.
+                    </p>
+                    <a href="#store" class="btn-landing-title-sport">Nossa Loja</a>
+                </div>
 
+                <div class="landing-container-sport">
+                    <div class="content-box-sport">
+                        <img src="/imgs/futebol/futebol-landing.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="store">
+            <div class="store-home">
+                <div class="store-description">
+                    <div class="store-recommendation-box">
+                        <p>
+                            "Como atleta profissional, sempre busco o melhor em desempenho e qualidade — e encontrei
+                            exatamente isso nesta loja. Os produtos são de alta performance, com ótimo atendimento e
+                            entrega rápida. Recomendo para todos que querem investir em excelência. Confie em mim, você
+                            está em boas mãos!"
+                            – <strong>Neymar</strong> <i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </p>
+
+                    </div>
+
+                    <div class="store-recommendation-box">
+                        <p>
+                            "Como alguém que valoriza cada detalhe no desempenho esportivo, fiquei impressionado com a
+                            qualidade desta loja. Os produtos são leves, resistentes e ideais para quem leva o treino a
+                            sério. Atendimento excelente e entrega ágil. Aqui, você realmente sente uma grande
+                            diferença."
+                            – <strong>Messi</strong> <i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </p>
+
+
+                    </div>
+
+                    <div class="store-recommendation-box">
+                        <p>
+                            "Eu sou exigente com tudo que consumo — e posso dizer que essa loja me surpreendeu. Produtos
+                            incríveis, ótima experiência de compra e uma preocupação real com o cliente. É raro ver isso
+                            hoje em dia. Pode confiar, é top demais!"
+                            – <strong>Felipe Neto</strong> <i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </p>
+
+
+                    </div>
+                </div>
+
+                <div class="store-side">
+                    <div class="store-container">
+                        <img src="/imgs/futebol/bola-futebol.png" />
+                        <div class="store-product-details">
+                            <h1>Bola de Futebol</h1>
+                            <h2>R$ 100,00</h2>
+                            <p>É uma bola de futebol.</p>
+                            <button class="buy-button">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="store-container">
+                        <img src="/imgs/futebol/luva-goleiro.png" />
+                        <div class="store-product-details">
+                            <h1>Luva de Goleiro</h1>
+                            <h2>R$ 50,00</h2>
+                            <p>É uma luva de goleiro.</p>
+                            <div>
+                                <label><input type="radio" name="tamanho-manguito" value="P"> P</label>
+                                <label><input type="radio" name="tamanho-manguito" value="M"> M</label>
+                                <label><input type="radio" name="tamanho-manguito" value="G"> G</label>
+                            </div>
+                            <button class="buy-button">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="store-container">
+                        <img src="/imgs/futebol/chuteira.png" />
+                        <div class="store-product-details">
+                            <h1>Chuteira de Futebol</h1>
+                            <h2>R$ 359,99</h2>
+                            <p>Essa chuteira parece boa.</p>
+                            <div>
+                                <label><input type="radio" name="tamanho-tenis"> 39</label>
+                                <label><input type="radio" name="tamanho-tenis"> 40</label>
+                                <label><input type="radio" name="tamanho-tenis"> 41</label>
+                                <label><input type="radio" name="tamanho-tenis"> 42</label>
+                            </div>
+                            <button class="buy-button">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="footer-box">
-            <span id="copyright">
-                &copy 2025 Eduardo Portugal
-            </span>
-
+            <span id="copyright">&copy; 2025 Eduardo Portugal</span>
             <div class="footer-social">
-                <a href="https://www.whatsapp.com/" target="_blank">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
-
-                <a href="https://www.instagram.com/duzeba/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-
-                <a href="https://www.facebook.com/" target="_blank">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
+                <a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/duzeba/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             </div>
-
         </div>
     </footer>
 </body>
+
+</html>
