@@ -64,6 +64,13 @@ body {
     margin-right: 1000px;
 }
 
+#nav-bar-left a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
 #nav-bar-left img {
     width: auto;
     height: 75px;
@@ -91,6 +98,15 @@ body {
     display: flex;
     list-style: none;
     gap: 48px;
+    
+}
+
+.nav-list li:hover {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    color: #f9901f;
+    transition: all 0.2s ease-in-out;
 }
 
 .nav-item {
@@ -494,4 +510,8 @@ footer {
 .footer-social a:hover {
     color: #fca311;
 
+}
+
+.fa-star {
+    color: #fca311;
 }
