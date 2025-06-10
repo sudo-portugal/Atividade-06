@@ -403,6 +403,11 @@ body {
     box-sizing: border-box;
 }
 
+.store-description img {
+    width: 200px;
+    height: auto;
+}
+
 .store-recommendation-box {
     background-color: #e0e1dd;
     padding: 24px;
