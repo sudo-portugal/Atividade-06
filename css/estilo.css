@@ -81,7 +81,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: -700px;
-    margin-right: 600px;
+    margin-right: 550px;
     padding: 20px;
 }
 
@@ -507,6 +507,7 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+
 }
 
 .footer-social a {
